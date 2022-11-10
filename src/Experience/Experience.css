@@ -93,6 +93,10 @@
 }
 
 @media screen and (max-width:500px){
+    .expr{
+        max-width: 360px;
+        margin-left: 10px;
+    }
     .point-ul{
         max-width: 380px;
     }

@@ -90,11 +90,24 @@
     }
     
 }
+
 @media screen and (max-width: 800px) {
     .ws-title{
         font-size: 40px;
     }
+
 }
+@media screen and (max-width: 500px) {
+
+    .ws-proj-img a img {
+        width: 380px;
+    }
+    .ws-proj-desc{
+        max-width: 360px;
+    }
+}
+
+
 @media screen and (min-width:1700px) {
     .ws-proj-img a img {
         width: 900px;

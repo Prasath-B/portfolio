@@ -52,6 +52,7 @@ a{
 @media screen and (max-width:600px) {
         .contact{
                 padding-left: 0%;
+                margin-left: 10px;
         }
     .contact-desc{
         font-size: 15px;
