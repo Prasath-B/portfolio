@@ -107,4 +107,7 @@
     .exp-title{
         font-size: 30px;
     }
+    .expr-left{
+        max-width: 360px;
+    }
 }

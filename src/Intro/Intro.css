@@ -76,10 +76,13 @@
 @media screen and (max-width : 500px) {
     .intro{
         display: flex;
-        justify-content: stretch;
+        justify-content: center;
         align-items: center;
         padding-left: 0%;
         background-image: url('img.png');
+    }
+    .intro-details{
+        padding: 0;
     }
     .my-name{
         font-size: 15px;
