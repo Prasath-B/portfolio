@@ -35,13 +35,30 @@ a{
         text-decoration: none;
 }
 
+.footer{
+ width: 100vw;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ background-color: #6D83F2;
+ color: black;
+ font-family: 'Kanit', sans-serif;
+ height: 40px;
+ padding-top: 20px;
+ font-size: 20px;
+ text-align: center;
+}
+
 @media screen and (max-width:600px) {
         .contact{
-                padding-left: 20%;
+                padding-left: 0%;
         }
     .contact-desc{
         font-size: 15px;
         max-width: 400px;
-        
-    }    
+        text-align: left;
+    }   
+    .footer{
+        font-size: 15px;
+    } 
 }

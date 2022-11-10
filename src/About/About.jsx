@@ -2,10 +2,10 @@ import React from 'react'
 import "./About.css"
 const About = () => {
   return (
-    <div className='about'>
+    <div className='about' id='about'>
         <div className="about-title">
-        <h1>About me</h1> 
-        <span style={{width:"200px",height:"2px",background:"#6D83F2",display:"inline"}}></span>
+        <h1 className='a-title'>About me</h1> 
+        <span className='hr-line'></span>
         </div>
         <div className='about-d' data-aos="fade-up"
      data-aos-duration="1500">

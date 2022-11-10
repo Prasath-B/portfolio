@@ -41,6 +41,8 @@ ul{
 @media screen and (max-width:700px) {
     .navbar-links{
         display: none;
+        justify-content: none;
+        width: auto;
     }
     .navbar-img{
         padding-left: 50px;
@@ -60,12 +62,19 @@ ul{
     .mob-nav-links{
         position: absolute;
         transition-delay: 2s;
-        width: 100vw;
         left: 0;
+        right: 0;
         top: 60px;
         display: flex;
         flex-direction: column;
         height: 400px;
         background-color: white;
     }
+    .a-links{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 50px;
+    }
 }
+

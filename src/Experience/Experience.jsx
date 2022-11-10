@@ -6,11 +6,11 @@ const Experience = () => {
   const [one, setone] = useState(true)
 
   return (
-    <div className='expr'>
+    <div className='expr' id='experience'>
 
         <div className="about-title">
         <h1 className='exp-title'>Where I've Worked</h1> 
-        <span className='hr-title'></span>
+        <span className='hr-line'></span>
         </div>
 
         <div className="expr-wrap">

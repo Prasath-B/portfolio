@@ -3,7 +3,7 @@ import "./WorkSample.css"
 
 const WorkSample = () => {
   return (
-    <div className='work-samples'>
+    <div className='work-samples' id='works'>
          <div className="about-title">
         <h1 className='ws-title'>Work Samples</h1> 
         <span className='hr-line'></span>

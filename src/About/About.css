@@ -32,6 +32,9 @@
     flex-direction: row;
     align-items: center;
 }
+.a-title{
+    font-size: 50px;
+}
 /* .about-title span{
     margin-left: 40px;
     width: 200px;
@@ -105,6 +108,9 @@
         justify-content: space-around;
         align-items: center;
     }
+    .a-title{
+        font-size: 40px;
+    }
 }
 
 
@@ -140,5 +146,8 @@
     .about-img img{
         width: 500px;
         height: 500px;
+    }
+    .a-title{
+        font-size: 90px;
     }
 }

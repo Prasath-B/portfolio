@@ -3,7 +3,8 @@ import "./GetInTouch.css"
 
 const GetInTouch = () => {
   return (
-    <div className='contact'>
+    <>
+    <div className='contact' id='contact'>
         <div className="about-title">
         <h1 className='exp-title'>Get In Touch</h1> 
         <span className='hr-line'></span>
@@ -14,6 +15,10 @@ const GetInTouch = () => {
         </div>
         <a href="mailto:prasathbalasubramani30@gmail.com" className='contact-btn'>Say hello!</a>
     </div>
+    <div className='footer'>
+        Created using Reactjs and CSS3
+    </div>
+    </>
   )
 }
 
