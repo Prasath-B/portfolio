@@ -1,0 +1,105 @@
+.work-samples{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: #6D83F2;
+    font-family: 'Kanit', sans-serif;
+}
+.ws-projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.ws-sin-project{
+    line-height: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.ws-sin-project-rev{
+    line-height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.ws-sin-project-rev div{
+    text-align: right;
+}   
+.ws-proj-img a img {
+    width: 600px;
+}
+.ws-proj-desc{
+    border-radius: 10px;
+    text-align: left;
+    color: rgb(84, 83, 83);
+    max-width: 400px;
+}
+.proj-stacks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.proj-title{
+    color: black;
+    font-size: 25px;
+}
+
+@media screen and (max-width:1200px) {
+    .work-samples{
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .ws-proj-img a img {
+        width: 500px;
+    }
+    /* .proj-title{
+        font-size: 0px;
+    } */
+    /* .ws-proj-desc{
+        font-size: 20px;
+        line-height: 30px;
+    } */
+}
+@media screen and (max-width: 800px) {
+    .ws-sin-project{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ws-sin-project-rev{
+        flex-direction: column;
+        align-items: center;
+    }
+    .ws-proj-img a img {
+        width: 400px;
+    }
+    .ws-sin-project-rev div {
+        text-align: left;
+    }
+    .ws-title{
+        font-size: 40px;
+    }
+    .work-samples{
+        padding-left: 0;
+    }
+    
+}
+
+@media screen and (min-width:1700px) {
+    .ws-proj-img a img {
+        width: 900px;
+    }
+    .proj-title{
+        font-size: 40px;
+    }
+    .ws-proj-desc{
+        font-size: 20px;
+        line-height: 30px;
+    }
+}

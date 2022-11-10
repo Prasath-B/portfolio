@@ -1,0 +1,21 @@
+.side-icons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 200px;
+}
+.side-comp{
+    position: fixed;
+    bottom: 0px;
+    left: 2.5%;
+    text-align: left;
+}
+.vl{
+    width: 3px;
+    height: 80px;
+    background-color: gray;
+    margin-left: 5px;
+}
+i:hover{
+ cursor: pointer;
+}
