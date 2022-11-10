@@ -17,7 +17,7 @@ const App = () => {
   useEffect(() => {
    setTimeout(()=>{
       setpreview(false)
-   },3000)
+   },1800)
    AOS.init();
   }, [])
 
