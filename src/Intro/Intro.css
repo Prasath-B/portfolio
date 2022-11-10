@@ -79,6 +79,7 @@
         justify-content: stretch;
         align-items: center;
         padding-left: 0%;
+        background-image: url('img.png');
     }
     .my-name{
         font-size: 15px;
@@ -91,7 +92,8 @@
         line-height: 20px;
     }
     .title{
-        font-size: 25px;
+        font-size: 30px;
+        line-height: 40px;
     }
 }
 
